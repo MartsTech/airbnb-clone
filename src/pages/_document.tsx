@@ -9,7 +9,7 @@ class Document extends NextDocument {
             name="description"
             content="Airbnb Clone created using Next.JS"
           />
-          <link rel="icon" href="/icons/favicon.png" />
+          <link rel="icon" href="/icons/favicon.ico" />
         </Head>
         <body>
           <Main />
