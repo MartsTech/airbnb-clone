@@ -1,5 +1,5 @@
-import Head from "next/head";
 import HomePage from "features/home/HomePage";
+import Head from "next/head";
 
 const Home = () => {
   return (

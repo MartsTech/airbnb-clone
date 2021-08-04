@@ -1,6 +1,6 @@
 import HeaderLogo from "./HeaderLogo";
-import HeaderSearch from "./HeaderSearch";
 import HeaderMenu from "./HeaderMenu";
+import HeaderSearch from "./HeaderSearch";
 
 const Header = () => {
   return (
