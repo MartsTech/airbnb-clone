@@ -11,6 +11,7 @@ const HomeLarge = () => {
           src={img}
           layout="fill"
           objectFit="cover"
+          alt="large"
           className="rounded-2xl"
         />
       </div>
