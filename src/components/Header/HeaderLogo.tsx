@@ -11,6 +11,7 @@ const HeaderLogo = () => {
         layout="fill"
         objectFit="contain"
         objectPosition="left"
+        alt="logo"
       />
     </div>
   );

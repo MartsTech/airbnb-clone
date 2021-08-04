@@ -9,7 +9,7 @@ const BannerButton = () => {
         shadow-md rounded-full font-bold my-3 hover:shadow-xl
         active:scale-90 transition duration-200"
       >
-        I'm flexible
+        I am flexible
       </button>
     </div>
   );
