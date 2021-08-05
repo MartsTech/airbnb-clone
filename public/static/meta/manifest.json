@@ -1,0 +1,13 @@
+{
+  "name": "Airbnb Clone",
+  "short_name": "Airbnb Clone",
+  "icons": [
+    {
+      "src": "/static/meta/favicon.ico",
+      "sizes": "512x512"
+    }
+  ],
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}

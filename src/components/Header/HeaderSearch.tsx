@@ -7,8 +7,7 @@ const HeaderSearch = () => {
       md:shadow-sm"
     >
       <input
-        className="flex-grow pl-5 bg-transparent outline-none text-sm
-        text-gray-600 placeholder-gray-400"
+        className="flex-grow pl-5 bg-transparent outline-none text-sm"
         placeholder="Start your search"
         type="text"
       />
