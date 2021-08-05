@@ -1,10 +1,10 @@
 import { HeartIcon, StarIcon } from "@heroicons/react/solid";
-import offersData from "data/resultsOffersItems.json";
+import offersData from "../../../data/resultsOffersItems.json";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { useRouter } from "next/router";
-import { useStore } from "stores/store";
-import { pageTransition, pageZoom } from "utils/animations";
+import { useStore } from "../../../stores/store";
+import { pageTransition, pageZoom } from "../../../utils/animations";
 
 const ResultsOffersItems = () => {
   const { setSelectedOffer } = useStore().offerStore;

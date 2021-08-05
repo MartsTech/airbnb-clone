@@ -1,10 +1,9 @@
-import Footer from "components/footer/Footer";
-import Header from "components/header/Header";
+import Footer from "../../components/footer/Footer";
+import Header from "../../components/header/Header";
 import { motion } from "framer-motion";
-import { pageSlide, pageTransition } from "utils/animations";
+import { pageSlide, pageTransition } from "../../utils/animations";
 import OfferCover from "./OfferCover";
 import OfferDetails from "./OfferDetails";
-import OfferSuggestions from "./OfferSuggestions";
 
 const Offer = () => {
   return (
@@ -24,7 +23,6 @@ const Offer = () => {
           <OfferCover />
           <OfferDetails />
         </div>
-        <OfferSuggestions />
       </motion.div>
       <Footer />
     </>

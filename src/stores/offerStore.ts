@@ -1,4 +1,4 @@
-import resultsOffersItems from "data/resultsOffersItems.json";
+import resultsOffersItems from "../data/resultsOffersItems.json";
 import { makeAutoObservable } from "mobx";
 
 class OfferStore {

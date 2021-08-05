@@ -1,7 +1,7 @@
-import Footer from "components/footer/Footer";
-import Header from "components/header/Header";
+import Footer from "../../components/footer/Footer";
+import Header from "../../components/header/Header";
 import { motion } from "framer-motion";
-import { pageSlide, pageTransition } from "utils/animations";
+import { pageSlide, pageTransition } from "../../utils/animations";
 import ResultsOffers from "./offers/ResultsOffers";
 
 const Results = () => {

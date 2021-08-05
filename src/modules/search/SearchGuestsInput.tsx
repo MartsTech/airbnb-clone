@@ -1,6 +1,6 @@
 import { UsersIcon } from "@heroicons/react/solid";
 import { observer } from "mobx-react-lite";
-import { useStore } from "stores/store";
+import { useStore } from "../../stores/store";
 
 const SearchGuestsInput = () => {
   const { quests, setQuests } = useStore().searchStore;

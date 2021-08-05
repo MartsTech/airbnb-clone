@@ -1,6 +1,6 @@
-import Button from "components/buttons/Button";
+import Button from "../../components/buttons/Button";
 import { observer } from "mobx-react-lite";
-import { useStore } from "stores/store";
+import { useStore } from "../../stores/store";
 
 const OfferDetails: React.FC = () => {
   const { selectedOffer } = useStore().offerStore;

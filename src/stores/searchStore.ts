@@ -1,5 +1,5 @@
 import { makeAutoObservable, reaction } from "mobx";
-import { searchQuery } from "types/searchQuery";
+import { searchQuery } from "../types/searchQuery";
 
 class SearchStore {
   searchOpen = false;

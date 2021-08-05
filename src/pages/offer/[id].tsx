@@ -1,4 +1,4 @@
-import Offer from "modules/offer/Offer";
+import Offer from "../../modules/offer/Offer";
 import Head from "next/head";
 
 const OffersPage = () => {

@@ -1,4 +1,4 @@
-import buttonsData from "data/resultsOffersButtons.json";
+import buttonsData from "../../../data/resultsOffersButtons.json";
 
 const ResultsOffeersButtons = () => {
   return (

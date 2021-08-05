@@ -1,4 +1,4 @@
-import { defaultSEO } from "configs/seo";
+import { defaultSEO } from "../../configs/seo";
 import { DefaultSeo } from "next-seo";
 import Head from "next/head";
 

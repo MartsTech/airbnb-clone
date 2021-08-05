@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { observer } from "mobx-react-lite";
 import Image from "next/image";
-import { useStore } from "stores/store";
+import { useStore } from "../../stores/store";
 
 const OfferCover: React.FC = () => {
   const { selectedOffer } = useStore().offerStore;

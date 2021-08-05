@@ -1,4 +1,4 @@
-import posterData from "data/homePoster.json";
+import posterData from "../../../data/homePoster.json";
 import Image from "next/image";
 
 const HomePoster = () => {

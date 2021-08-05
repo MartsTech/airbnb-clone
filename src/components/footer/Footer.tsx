@@ -1,4 +1,4 @@
-import footerData from "data/footerLinks.json";
+import footerData from "../../data/footerLinks.json";
 
 const Footer = () => {
   return (
