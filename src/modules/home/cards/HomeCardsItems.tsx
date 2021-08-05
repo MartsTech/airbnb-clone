@@ -1,5 +1,7 @@
 import cardsData from "data/homeCards.json";
+import { motion } from "framer-motion";
 import Image from "next/image";
+import { pageTransition, pageZoom } from "utils/animations";
 
 const HomeCardsItems = () => {
   return (
@@ -8,7 +10,12 @@ const HomeCardsItems = () => {
       p-3 -ml-3"
     >
       {cardsData.map(({ img, title }) => (
-        <div
+        <motion.div
+          initial="initial"
+          animate="in"
+          exit="out"
+          variants={pageZoom}
+          transition={pageTransition}
           key={img}
           className="cursor-pointer hover:scale-105 transform
           transition duration-300 ease-out"
@@ -17,7 +24,7 @@ const HomeCardsItems = () => {
             <Image src={img} layout="fill" className="rounded-xl" alt="card" />
           </div>
           <h3 className="text-2xl mt-3">{title}</h3>
-        </div>
+        </motion.div>
       ))}
     </div>
   );
