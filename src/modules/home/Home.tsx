@@ -1,5 +1,6 @@
 import Banner from "components/banner/Banner";
-import DefaultLayout from "components/layouts/DefaultLayout";
+import Footer from "components/footer/Footer";
+import Header from "components/header/Header";
 import { motion } from "framer-motion";
 import { pageSlide, pageTransition } from "utils/animations";
 import HomeCards from "./cards/HomeCards";
@@ -8,7 +9,8 @@ import HomePoster from "./poster/HomePoster";
 
 const Home = () => {
   return (
-    <DefaultLayout>
+    <>
+      <Header />
       <motion.div
         initial="initial"
         animate="in"
@@ -23,7 +25,8 @@ const Home = () => {
           <HomePoster />
         </div>
       </motion.div>
-    </DefaultLayout>
+      <Footer />
+    </>
   );
 };
 

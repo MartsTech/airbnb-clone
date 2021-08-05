@@ -1,23 +1,26 @@
-import DefaultLayout from "components/layouts/DefaultLayout";
+import Footer from "components/footer/Footer";
+import Header from "components/header/Header";
 import { motion } from "framer-motion";
 import { pageSlide, pageTransition } from "utils/animations";
 import ResultsOffers from "./offers/ResultsOffers";
 
 const Results = () => {
   return (
-    <motion.div
-      initial="initial"
-      animate="in"
-      exit="out"
-      variants={pageSlide}
-      transition={pageTransition}
-    >
-      <DefaultLayout>
+    <>
+      <Header />
+      <motion.div
+        initial="initial"
+        animate="in"
+        exit="out"
+        variants={pageSlide}
+        transition={pageTransition}
+      >
         <div className="flex">
           <ResultsOffers />
         </div>
-      </DefaultLayout>
-    </motion.div>
+      </motion.div>
+      <Footer />
+    </>
   );
 };
 
