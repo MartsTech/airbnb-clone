@@ -1,8 +1,8 @@
-import largeCardData from "data/homeLarge.json";
+import posterData from "data/homePoster.json";
 import Image from "next/image";
 
-const HomeLarge = () => {
-  const { img, title, description, buttonText } = largeCardData;
+const HomePoster = () => {
+  const { img, title, description, buttonText } = posterData;
 
   return (
     <section className="relative py-16 cursor-pointer">
@@ -29,4 +29,4 @@ const HomeLarge = () => {
   );
 };
 
-export default HomeLarge;
+export default HomePoster;

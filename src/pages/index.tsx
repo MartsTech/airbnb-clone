@@ -1,15 +1,15 @@
-import HomePage from "features/home/HomePage";
+import Home from "modules/home/Home";
 import Head from "next/head";
 
-const Home = () => {
+const HomePage = () => {
   return (
     <>
       <Head>
         <title>Airbnb Clone</title>
       </Head>
-      <HomePage />
+      <Home />
     </>
   );
 };
 
-export default Home;
+export default HomePage;

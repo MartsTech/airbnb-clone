@@ -1,6 +1,11 @@
 import { SearchIcon } from "@heroicons/react/solid";
+import { observer } from "mobx-react-lite";
+import { useStore } from "stores/store";
 
 const HeaderSearch = () => {
+  const { searchInput, setSearchInput, searchPlaceholder } =
+    useStore().searchStore;
+
   return (
     <div
       className="flex items-center md:border-2 rounded-full py-2
@@ -8,8 +13,10 @@ const HeaderSearch = () => {
     >
       <input
         className="flex-grow pl-5 bg-transparent outline-none text-sm"
-        placeholder="Start your search"
+        placeholder={searchPlaceholder || `Start your search`}
         type="text"
+        value={searchInput}
+        onChange={(e) => setSearchInput(e.target.value)}
       />
       <SearchIcon
         className="hidden md:inline-flex h-8 bg-red-400
@@ -19,4 +26,4 @@ const HeaderSearch = () => {
   );
 };
 
-export default HeaderSearch;
+export default observer(HeaderSearch);

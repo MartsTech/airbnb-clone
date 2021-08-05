@@ -4,8 +4,8 @@ import BannerButton from "./BannerButton";
 const Banner = () => {
   return (
     <div
-      className="relative h-[300px] sm:h-[400px] lg:h-[500px] 
-      xl:h-[600px] 2xl:h-[700px] -mt-24"
+      className="relative h-[400px] sm:h-[500px] lg:h-[600px]
+      xl:h-[700px] 2xl:h-[800px] -mt-24"
     >
       <Image
         src="https://links.papareact.com/0fm"
