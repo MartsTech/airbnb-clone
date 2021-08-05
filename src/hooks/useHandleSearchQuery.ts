@@ -1,8 +1,8 @@
 import { useRouter } from "next/router";
 import { useEffect } from "react";
-import { useStore } from "stores/store";
-import { searchQuery } from "types/searchQuery";
-import { getDateRange } from "utils/getDateRange";
+import { useStore } from "../stores/store";
+import { searchQuery } from "../types/searchQuery";
+import { getDateRange } from "../utils/getDateRange";
 
 const useHandleSearchQuery = () => {
   const { setSearchPlaceholder } = useStore().searchStore;
