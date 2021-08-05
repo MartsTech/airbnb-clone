@@ -1,10 +1,12 @@
 import { SearchIcon } from "@heroicons/react/solid";
 import { observer } from "mobx-react-lite";
+import { useRouter } from "next/router";
 import { useStore } from "stores/store";
 
 const HeaderSearch = () => {
   const { searchInput, setSearchInput, searchPlaceholder } =
     useStore().searchStore;
+  const pathname = useRouter().pathname;
 
   return (
     <div
@@ -13,7 +15,11 @@ const HeaderSearch = () => {
     >
       <input
         className="flex-grow pl-5 bg-transparent outline-none text-sm"
-        placeholder={searchPlaceholder || `Start your search`}
+        placeholder={
+          searchPlaceholder && pathname === "/results"
+            ? searchPlaceholder
+            : `Start your search`
+        }
         type="text"
         value={searchInput}
         onChange={(e) => setSearchInput(e.target.value)}
