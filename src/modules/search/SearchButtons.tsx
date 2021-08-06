@@ -1,6 +1,6 @@
 import { observer } from "mobx-react-lite";
 import { useRouter } from "next/router";
-import { useStore } from "../../stores/store";
+import { useStore } from "stores/store";
 
 const SearchButtons = () => {
   const { getSeachQuery, resetSearch } = useStore().searchStore;

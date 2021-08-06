@@ -1,7 +1,7 @@
 import { SearchIcon } from "@heroicons/react/solid";
 import { observer } from "mobx-react-lite";
 import { useRouter } from "next/router";
-import { useStore } from "../../stores/store";
+import { useStore } from "stores/store";
 
 const HeaderSearch = () => {
   const { searchInput, setSearchInput, searchPlaceholder } =

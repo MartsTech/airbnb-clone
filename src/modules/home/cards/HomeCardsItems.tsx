@@ -1,7 +1,7 @@
-import cardsData from "../../../data/homeCards.json";
+import cardsData from "data/homeCards.json";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { pageTransition, pageZoom } from "../../../utils/animations";
+import { pageTransition, pageZoom } from "utils/animations";
 
 const HomeCardsItems = () => {
   return (

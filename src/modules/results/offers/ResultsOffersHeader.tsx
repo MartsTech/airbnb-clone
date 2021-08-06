@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
-import { searchQuery } from "../../../types/searchQuery";
-import { getDateRange } from "../../../utils/getDateRange";
+import { searchQuery } from "types/searchQuery";
+import { getDateRange } from "utils/getDateRange";
 
 const ResultsOffersHeader = () => {
   const router = useRouter();

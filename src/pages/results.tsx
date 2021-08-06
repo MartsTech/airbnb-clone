@@ -1,5 +1,5 @@
-import useHandleSearchQuery from "../hooks/useHandleSearchQuery";
-import Results from "../modules/results/Results";
+import useHandleSearchQuery from "hooks/useHandleSearchQuery";
+import Results from "modules/results/Results";
 import Head from "next/head";
 
 const ResultsPage = () => {

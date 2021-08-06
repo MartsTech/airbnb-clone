@@ -1,8 +1,8 @@
-import OutsideClick from "../../components/layouts/OutsideClick";
-import useTransparentHeader from "../../hooks/useTransparantHeader";
+import OutsideClick from "components/layouts/OutsideClick";
+import useTransparentHeader from "hooks/useTransparantHeader";
 import { observer } from "mobx-react-lite";
-import Search from "../../modules/search/Search";
-import { useStore } from "../../stores/store";
+import Search from "modules/search/Search";
+import { useStore } from "stores/store";
 import HeaderLogo from "./HeaderLogo";
 import HeaderMenu from "./HeaderMenu";
 import HeaderSearch from "./HeaderSearch";

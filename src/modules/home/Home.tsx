@@ -1,16 +1,14 @@
-import Banner from "../../components/banner/Banner";
-import Footer from "../../components/footer/Footer";
-import Header from "../../components/header/Header";
+import Banner from "components/banner/Banner";
+import DefaultLayout from "components/layouts/DefaultLayout";
 import { motion } from "framer-motion";
-import { pageSlide, pageTransition } from "../../utils/animations";
+import { pageSlide, pageTransition } from "utils/animations";
 import HomeCards from "./cards/HomeCards";
 import HomeExplore from "./explore/HomeExplore";
 import HomePoster from "./poster/HomePoster";
 
 const Home = () => {
   return (
-    <>
-      <Header />
+    <DefaultLayout>
       <motion.div
         initial="initial"
         animate="in"
@@ -25,8 +23,7 @@ const Home = () => {
           <HomePoster />
         </div>
       </motion.div>
-      <Footer />
-    </>
+    </DefaultLayout>
   );
 };
 

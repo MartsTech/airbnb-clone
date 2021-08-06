@@ -1,7 +1,7 @@
-import exploreData from "../../../data/homeExplore.json";
+import exploreData from "data/homeExplore.json";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { pageTransition, pageZoom } from "../../../utils/animations";
+import { pageTransition, pageZoom } from "utils/animations";
 
 const HomeExploreCards = () => {
   return (

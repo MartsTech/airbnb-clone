@@ -1,5 +1,5 @@
 import ProgressBar from "@badrap/bar-of-progress";
-import Providers from "../components/providers/Providers";
+import Providers from "components/providers/Providers";
 import { AppProps } from "next/app";
 import Router from "next/router";
 import "../styles/globals.css";
