@@ -1,4 +1,4 @@
-import OutsideClick from "components/Layouts/OutsideClick";
+import OutsideClick from "components/layouts/OutsideClick";
 import useTransparentHeader from "hooks/useTransparantHeader";
 import { observer } from "mobx-react-lite";
 import Search from "modules/search/Search";
