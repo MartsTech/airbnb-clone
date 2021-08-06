@@ -1,4 +1,4 @@
-import DefaultLayout from "components/layouts/DefaultLayout";
+import DefaultLayout from "components/Layouts/DefaultLayout";
 import { motion } from "framer-motion";
 import { pageSlide, pageTransition } from "utils/animations";
 import ResultsOffers from "./offers/ResultsOffers";

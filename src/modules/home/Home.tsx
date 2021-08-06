@@ -1,5 +1,5 @@
-import Banner from "components/banner/Banner";
-import DefaultLayout from "components/layouts/DefaultLayout";
+import Banner from "components/Banner";
+import DefaultLayout from "components/Layouts/DefaultLayout";
 import { motion } from "framer-motion";
 import { pageSlide, pageTransition } from "utils/animations";
 import HomeCards from "./cards/HomeCards";

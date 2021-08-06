@@ -1,4 +1,4 @@
-import Button from "components/buttons/Button";
+import Button from "components/Button";
 import { observer } from "mobx-react-lite";
 import { useStore } from "stores/store";
 
