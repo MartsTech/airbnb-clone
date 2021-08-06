@@ -1,4 +1,4 @@
-import Banner from "components/banner/Banner";
+import Banner from "components/Banner";
 import DefaultLayout from "components/layouts/DefaultLayout";
 import { motion } from "framer-motion";
 import { pageSlide, pageTransition } from "utils/animations";
