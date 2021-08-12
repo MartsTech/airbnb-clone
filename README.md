@@ -26,11 +26,11 @@
   <a href="#license">License</a>
 </p>
 
-![Home Screenshot](public/assets/screenshots/homepage.png?raw=true "Home Page")
+![Home Screenshot](public/static/screenshots/homepage.png?raw=true "Home Page")
 
 ---
 
-![Results Screenshot](public/assets/screenshots/resultspage.png?raw=true "Results Page")
+![Results Screenshot](public/static/screenshots/resultspage.png?raw=true "Results Page")
 
 ---
 
