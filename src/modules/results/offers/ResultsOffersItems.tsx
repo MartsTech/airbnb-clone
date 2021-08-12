@@ -2,14 +2,9 @@ import { HeartIcon, StarIcon } from "@heroicons/react/solid";
 import offersData from "data/resultsOffersItems.json";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { useRouter } from "next/router";
-import { useStore } from "stores/store";
 import { pageTransition, pageZoom } from "utils/animations";
 
 const ResultsOffersItems = () => {
-  const { setSelectedOffer } = useStore().offerStore;
-  const router = useRouter();
-
   return (
     <div className="flex flex-col">
       {offersData.map((offer) => {
@@ -25,10 +20,6 @@ const ResultsOffersItems = () => {
             transition={pageTransition}
             layout
             key={id}
-            onClick={() => {
-              setSelectedOffer(offer);
-              router.push(`/offer/${id}`);
-            }}
             className="flex py-7 px-2 border-b pr-4
             cursor-pointer hover:opacity-80 hover:shadow-lg
             transition duration-200 ease-out first:border-t"
