@@ -318,10 +318,10 @@
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.4.tgz#fcf7205c25dff795ee79af1e30da2c9790808f11"
   integrity sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==
 
-"@types/react-date-range@^1.1.6":
-  version "1.1.7"
-  resolved "https://registry.yarnpkg.com/@types/react-date-range/-/react-date-range-1.1.7.tgz#75c76896cc45f29b9cacc8a4aa0ee54295bf26b7"
-  integrity sha512-AqnjUNLloFz6ty60RO9VjYLXZGgw6fcbfR/nsEAGH8gINvHDFjmuy4X22aAEMzTnczEXMgEof3R+i09k2ntOeQ==
+"@types/react-date-range@^1.1.8":
+  version "1.1.8"
+  resolved "https://registry.yarnpkg.com/@types/react-date-range/-/react-date-range-1.1.8.tgz#3df8f8f0ce2112c0e27613c4d45428761bf393a5"
+  integrity sha512-sXbPByk5xWxfa0KiCHXBSfq6Luc3WTfrzm3sfg7tMTAjnpQfKs8f6hOIwz2337iDsDxgbkN4V9pNQl8SIpYtoA==
   dependencies:
     "@types/react" "*"
     date-fns "^2.16.1"
