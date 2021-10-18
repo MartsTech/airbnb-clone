@@ -15,7 +15,7 @@
     "date-fns": "^2.25.0",
     "framer-motion": "^4.1.17",
     "geolib": "^3.3.3",
-    "mobx": "^6.3.3",
+    "mobx": "^6.3.5",
     "mobx-react-lite": "^3.2.1",
     "next": "11.1.2",
     "next-seo": "^4.28.1",
