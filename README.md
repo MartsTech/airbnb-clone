@@ -1,7 +1,5 @@
 <h1 align="center">
-  <a href="https://airbnb-clone-martstech.vercel.app">
-    <img width="200px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_B%C3%A9lo.svg/2560px-Airbnb_Logo_B%C3%A9lo.svg.png" alt="Airbnb Logo" />
-  </a>
+  <img width="200px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_B%C3%A9lo.svg/2560px-Airbnb_Logo_B%C3%A9lo.svg.png" alt="Airbnb Logo" />
   <br />
   Airbnb-clone
   <br />
@@ -18,7 +16,6 @@
 </p>
 
 <p align="center">
-  <a href="#demo">Demo</a> •
   <a href="#key-features">Key Features</a> •
   <a href="#key-technologies">Key Technologies</a> •
   <a href="#setup">Setup</a> •
@@ -31,12 +28,6 @@
 ---
 
 ![Results Screenshot](public/static/screenshots/resultspage.png?raw=true "Results Page")
-
----
-
-## Demo
-
-Here is a working live demo [here](https://airbnb-clone-martstech.vercel.app)
 
 ---
 
